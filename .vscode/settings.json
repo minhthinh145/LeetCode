@@ -11,6 +11,7 @@
         "random": "cpp",
         "chrono": "cpp",
         "span": "cpp",
-        "type_traits": "cpp"
+        "type_traits": "cpp",
+        "mscc": "cpp"
     }
 }
