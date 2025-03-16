@@ -7,7 +7,6 @@ struct ListNode
     ListNode(int x) : val(x), next(nullptr) {}
     ListNode(int x, ListNode *next) : val(x), next(next) {}
     ListNode() : val(0), next(nullptr) {}
-
 };
 /* 
 ý tưởng của thuật toán : do đề bài yêu cầu remove node đếm từ cuối về nên ta có thể suy nghĩ như sau :
