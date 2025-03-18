@@ -38,7 +38,7 @@ int maxSub(int arr[] , int left , int right)
     return arr[right];
 
     int mid = (left+right)/2;
-    int l_max = maxSub(arr,left,mid);
+        int l_max = maxSub(arr,left,mid);
     int r_max = maxSub(arr, mid + 1 , right);
     int maxval = maxLeftSum(arr,left,mid) + maxRightSum(arr,mid,right);
 
